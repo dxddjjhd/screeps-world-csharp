@@ -2,6 +2,12 @@
 
 从 `Bot/Colony.cs` 开始写策略。在 `Bot/` 下添加的 C# 文件也会参与编译。WorldKit 用基于 Roslyn 的 Transpose 编译 C#，把基础库、游戏接口和你的策略打包成一个 CommonJS 模块 `dist/main.js`。游戏端只需加载 JavaScript。
 
+## 使用文档
+
+- [安装、编译与部署](docs/GETTING-STARTED.md) — 从下载、安装工具到修改策略、提交游戏和排查问题。
+- [C# / JavaScript 常用 API 对照表](docs/API.md) — 按查找、采集、战斗、建筑、市场、Memory 与寻路组织。
+- [完整绑定对照表](docs/API-REFERENCE.md) — 451 个全局名称与 720 个成员签名，可按类型查找参数和返回类型。
+
 ## 先试跑，再改代码
 
 1. 在 World 的 Simulation 或测试分支创建自己的房间和 spawn。
