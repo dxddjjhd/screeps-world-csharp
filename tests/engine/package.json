@@ -1,0 +1,1 @@
+{"name":"worldkit-engine-verification","version":"1.0.0","private":true,"scripts":{"test":"node world.cjs ../../dist/main.js"},"dependencies":{"@screeps/engine":"4.3.2","@screeps/common":"2.16.1"}}
